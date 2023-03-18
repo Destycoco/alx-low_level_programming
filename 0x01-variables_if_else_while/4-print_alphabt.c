@@ -15,13 +15,10 @@ int main(void)
 	y = 'q';
 	while (c <= 'z')
 	{
-		putchar(c);
-		c++;
-	if
-		(c == y && c == x);
-	{
-		putchar(c++);
-	}
+		if ((c != x && c != y) && c <= 'z')
+		{
+			putchar(c);
+		}
 	}
 	putchar('\n');
 	return (0);
