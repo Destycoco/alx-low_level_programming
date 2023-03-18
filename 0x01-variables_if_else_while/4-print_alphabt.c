@@ -18,6 +18,7 @@ int main(void)
 		if ((c != x && c != y) && c <= 'z')
 		{
 			putchar(c);
+			c++;
 		}
 	}
 	putchar('\n');
