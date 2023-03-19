@@ -4,12 +4,11 @@
  *
  * Return: 0
 */
-int main()
+int main(void)
 {
-	int num;
+	int a;
 
-
-	for (num = 0; num < 10; num++)
+	for (a = 0; a < 10; a++);
 		putchar(num);
 	putchar('\n');
 	return (0);
