@@ -16,7 +16,7 @@ for (j = 1; j < 10; j++)
 {
 for (k = 2; k < 10; k++)
 {
-if (i < j < k && i != j != k)
+if (i < j && j < k && i < k && i != j && j != k && i != k)
 {
 putchar(i + '0');
 putchar(j + '0');
@@ -33,4 +33,3 @@ putchar(' ');
 putchar ('\n');
 return (0);
 }
-
