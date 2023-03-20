@@ -18,9 +18,9 @@ for (k = 2; k <= 9; k++)
 {
 if (i < j && j < k && i < k && i != j && j != k && i != k)
 {
-putchar(i);
-putchar(j);
-putchar(k);
+putchar(i + '0');
+putchar(j + '0');
+putchar(k + '0');
 {
 if (i + j + k != 24)
 putchar(',');
