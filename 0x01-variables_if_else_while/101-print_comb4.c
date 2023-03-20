@@ -10,17 +10,17 @@ int i;
 int j;
 int k;
 
-for (i = 0; i < 10; i++)
+for (i = 0; i <= 9; i++)
 {
-for (j = 1; j < 10; j++)
+for (j = 1; j <= 9; j++)
 {
-for (k = 2; k < 10; k++)
+for (k = 2; k <= 9; k++)
 {
 if (i < j && j < k && i < k && i != j && j != k && i != k)
 {
-putchar(i + '0');
-putchar(j + '0');
-putchar(k + '0');
+putchar(i);
+putchar(j);
+putchar(k);
 {
 if (i + j + k != 24)
 putchar(',');
