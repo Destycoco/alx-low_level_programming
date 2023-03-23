@@ -1,19 +1,16 @@
 #include "main.h"
 /**
  * times_table - A function to print 9 times.
- * @x: character
- * @y: character 
- * @z: character
- * @u: character
- * @d: character
  * Return: void
  */
-
 void times_table(void)
-	
 {
 
-int x, y, z, u, d;
+int x;
+int y;
+int z;
+int u;
+int d;
 
 for (x = 0; x <= 9; x++)
 {
